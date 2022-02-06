@@ -1,0 +1,34 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+    padding: 5% 15%;
+}
+
+
+.profile-pic-container{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 90%;
+}
+
+#waving-hand{
+    font-size: 4em;
+}
+
+.intro-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: auto;
+}
+
+.hi-there{
+    font-size: 3rem;
+    font-weight: 900;
+}

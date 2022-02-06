@@ -8,8 +8,10 @@ app.use(express.static("public"));
 
 const port = process.env.PORT || 3000;
 
+const navItems = ["About", "Work", "Contact"];
+
 app.get("/", function (_, res) { 
-    res.render("index");
+    res.render("index", {navItems: navItems});
 });
 
 app.listen(port, function () {
