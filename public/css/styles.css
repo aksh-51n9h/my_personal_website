@@ -2,10 +2,73 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+#contact{
+    background-color: #eeeff1;
+}
+
+.contact-heading{
+    padding-bottom: 1rem;
+}
+
 .container-fluid{
     padding: 5% 15%;
 }
 
+@media (max-width: 1020px){
+    .container-fluid{
+        padding: 5% 10%;
+    }
+}
+
+.form-row{
+    padding-bottom: 2rem;
+}
+
+.hi-there{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+@media (max-width: 764px){
+    .hi-there{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1020px){
+    .hi-there{
+        font-size: 2.9rem;
+    }
+}
+
+#intro{
+    background-color: #eeeff1;
+}
+
+@media (max-width: 764px){
+    #intro{
+       text-align: center;
+   }
+}
+
+@media (max-width: 764px){
+    .intro-text{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1020px){
+    .intro-text{
+        font-size: 1.4rem;
+    }
+}
+
+
+.intro-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: auto;
+}
 
 .profile-pic-container{
     margin: auto;
@@ -18,17 +81,34 @@ body{
     width: 90%;
 }
 
+@media (max-width: 764px){
+    .profile-pic{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1020px){
+    .profile-pic{
+        width: 100%;
+    }
+}
+
+.navbar{
+    padding: 1% 2%;
+}
+
+@media (max-width: 764px){
+   .navbar{
+       padding: 4%;
+   }
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
 #waving-hand{
     font-size: 4em;
-}
-
-.intro-text{
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin: auto;
-}
-
-.hi-there{
-    font-size: 3rem;
-    font-weight: 900;
 }
