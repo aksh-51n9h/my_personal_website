@@ -3,12 +3,13 @@ const bodyParser = require("body-parser");
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 const port = process.env.PORT || 3000;
 
 app.get("/", function (_, res) { 
-    res.sendFile(__dirname +  "/index.html");
+    res.render("index");
 });
 
 app.listen(port, function () {
