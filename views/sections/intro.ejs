@@ -1,0 +1,41 @@
+<section id="intro">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Akshay Singh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <% let i = 0; %>
+                <% while(i < navItems.length){ %>
+                    <% let navItem = navItems[i]; %>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><%=navItem%></a>
+                    </li>
+                <% i++; %>    
+                <% } %>    
+            </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="profile-pic-container col-lg-4 col-md-4 col-sm-12">
+                <img class="profile-pic" src="images/profile_pic.png" alt="profile pic">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <span id="waving-hand">👋</span>
+                <span class="hi-there">
+                    Hi, I'm Akshay
+                </span>
+                <p class="intro-text">
+                    Fuelled by a passion for designing compelling products, I have a deep desire to excel and
+                    continuously improve in my work. Learn more about my journey below.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section>
