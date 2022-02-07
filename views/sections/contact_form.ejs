@@ -1,12 +1,12 @@
 <section id="contact">
-    <div class="contact-form container-fluid">
+    <div class="contact-form-container container-fluid">
         <div class="row">
             <div class="col-lg-5 col-md-5">
                 <h2 class="contact-heading">Want to get in touch?</h2>
             </div>
 
             <div class="col-lg-7 col-md-7">
-                <form action="index.html">
+                <form action="/contact" method="post" id="contact-form">
                     <div class="form-row">
                         <div class="col">
                             <input type="text" class="form-control" id="inputName" placeholder="Name" autocomplete="off" name="sender_name">
@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="form-row">
-                        <button type="submit" class="btn btn-primary btn-lg" id="submit">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-lg" id="submit" name="sendMessage">Submit</button>
                     </div>
 
                 </form>
