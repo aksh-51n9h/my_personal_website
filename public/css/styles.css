@@ -37,7 +37,7 @@ body{
 
 @media (max-width: 1020px){
     .hi-there{
-        font-size: 2.9rem;
+        font-size: 2.7rem;
     }
 }
 
@@ -51,6 +51,12 @@ body{
    }
 }
 
+.intro-text{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: auto;
+}
+
 @media (max-width: 764px){
     .intro-text{
         font-size: 1.2rem;
@@ -61,13 +67,6 @@ body{
     .intro-text{
         font-size: 1.4rem;
     }
-}
-
-
-.intro-text{
-    font-size: 1.6rem;
-    line-height: 1.6;
-    margin: auto;
 }
 
 .profile-pic-container{
@@ -111,4 +110,16 @@ body{
 
 #waving-hand{
     font-size: 4em;
+}
+
+@media (max-width: 764px){
+    #waving-hand{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 1020px){
+    #waving-hand{
+        font-size: 3em;
+    }
 }
