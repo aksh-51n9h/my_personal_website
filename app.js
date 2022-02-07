@@ -24,9 +24,10 @@ const Message = mogoose.model("Message", messageSchema);
 const port = process.env.PORT || 3000;
 
 const navItems = ["About", "Work", "Contact"];
+const skills = ["Mobile Development", "Flutter", "Dart", "Web Development", "HTML/CSS", "Bootstrap", "Javascript", "NodeJS", "EJS", "ReactJS", "SQL", "MongoDB", "Mongoose", "Firebase", "Heroku", "Github"];
 
 app.get("/", function (_, res) {
-    res.render("index", { navItems: navItems, activeFlag: "active" });
+    res.render("index", { navItems: navItems, skills: skills });
 });
 
 app.route("/contact")
@@ -42,7 +43,7 @@ app.route("/contact")
             date: new Date()
         });
 
-        message.save(function (err) { 
+        message.save(function (err) {
             if (err) {
                 res.send("Some error occured!");
             } else {
