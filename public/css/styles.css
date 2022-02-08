@@ -4,6 +4,7 @@ body{
 
 .btn{
     margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 #contact{
@@ -22,6 +23,13 @@ body{
     .container-fluid{
         padding: 5% 10%;
     }
+}
+
+footer{
+    background-color: #eeeff1;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.5rem;
 }
 
 .form-row{
@@ -82,6 +90,7 @@ body{
 .profile-pic{
     border-radius: 100%;
     width: 90%;
+    background-image: linear-gradient(to bottom, pink, skyblue 40%);
 }
 
 @media (max-width: 764px){

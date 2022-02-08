@@ -26,8 +26,10 @@ const port = process.env.PORT || 3000;
 const navItems = ["About", "Work", "Contact"];
 const skills = ["Mobile Development", "Flutter", "Dart", "Web Development", "HTML/CSS", "Bootstrap", "Javascript", "NodeJS", "EJS", "ReactJS", "SQL", "MongoDB", "Mongoose", "Firebase", "Heroku", "Github"];
 
+const year = new Date().getFullYear();
+
 app.get("/", function (_, res) {
-    res.render("index", { navItems: navItems, skills: skills });
+    res.render("index", { navItems: navItems, skills: skills, year: year });
 });
 
 app.route("/contact")
