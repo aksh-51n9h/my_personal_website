@@ -53,7 +53,7 @@ footer{
     }
 }
 
-#intro{
+#about{
     background-color: #eeeff1;
 }
 
@@ -91,6 +91,7 @@ footer{
     border-radius: 100%;
     width: 90%;
     background-image: linear-gradient(to bottom, pink, skyblue 40%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 @media (max-width: 764px){
