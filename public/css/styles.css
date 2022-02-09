@@ -1,3 +1,13 @@
+#about{
+    background-color: #eeeff1;
+}
+
+@media (max-width: 764px){
+    #about{
+       text-align: center;
+   }
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -51,16 +61,6 @@ footer{
     .hi-there{
         font-size: 2.7rem;
     }
-}
-
-#about{
-    background-color: #eeeff1;
-}
-
-@media (max-width: 764px){
-    #intro{
-       text-align: center;
-   }
 }
 
 .intro-text{
