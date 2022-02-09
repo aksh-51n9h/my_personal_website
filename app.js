@@ -47,9 +47,10 @@ app.route("/contact")
 
         message.save(function (err) {
             if (err) {
-                res.send("Some error occured!");
+                console.log("Error occured in post /contact");
+                res.send(err);
             } else {
-                res.send("Message sent successfully!");
+                res.redirect("/");
             }
         });
     });

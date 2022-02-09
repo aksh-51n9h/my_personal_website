@@ -9,18 +9,18 @@
                 <form action="/contact" method="post" id="contact-form">
                     <div class="form-row">
                         <div class="col">
-                            <input type="text" class="form-control" id="inputName" placeholder="Name" autocomplete="off" name="sender_name">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name" autocomplete="off" name="sender_name" required>
                         </div>
 
                         <p></p>
 
                         <div class="col">
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" autocomplete="off" name="sender_email">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" autocomplete="off" name="sender_email" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="col">
-                            <textarea class="form-control" id="messageTextarea" rows="8" placeholder="Leave your message here." name="message"></textarea>
+                            <textarea class="form-control" id="messageTextarea" rows="8" placeholder="Leave your message here." name="message" minlength="1" required></textarea>
                         </div>
                     </div>
 
